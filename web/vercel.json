@@ -2,5 +2,20 @@
     "version": 2,
     "routes": [
       { "src": "/install.sh", "dest": "/install.sh" }
+    ],
+    "headers": [
+      {
+        "source": "/install.sh",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain"
+          },
+          {
+            "key": "Content-Disposition",
+            "value": "inline"
+          }
+        ]
+      }
     ]
   }
