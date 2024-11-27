@@ -1,0 +1,34 @@
+# Golang
+/bin/
+/obj/
+/vendor/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+/*.test
+*.out
+
+# Vite
+node_modules/
+dist/
+*.local
+*.log
+*.env.local
+*.env.*.local
+.vscode/
+.idea/
+.DS_Store
+
+# React
+node_modules/
+build/
+*.env
+*.log
+*.local
+*.env.local
+*.env.*.local
+.vscode/
+.idea/
+.DS_Store
