@@ -1,7 +1,11 @@
-.PHONY: ui
+.PHONY: web
 .PHONY: server
 .PHONY: db
 .PHONY: logdb
+.PHONY: ui
+
+web:
+	@cd web && bun run dev -- --open
 
 ui:
 	@cd ui && bun run dev -- --open

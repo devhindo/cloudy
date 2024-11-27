@@ -9,14 +9,7 @@ function App() {
   return (
     <>
     <div className="flex items-center justify-center min-h-screen">
-      <div>
-      <h1 className="text-2xl font-bold mb-4">Enter your key</h1>
-      <input 
-        type="text" 
-        placeholder="key" 
-        className="border border-gray-300 p-2 rounded"
-      />
-      </div>
+      easier self-hosted deployment solution 
     </div>
     </>
   )
