@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Terminal, Copy, Check, Cloud, Zap, Shield, Github } from 'lucide-react';
 
 function App() {
